@@ -118,11 +118,7 @@ function PostDetail() {
                         </div>
                     </div>
                 </div>
-
-
             </div>
-
-            <FooterSite />
         </div>
     );
 }
