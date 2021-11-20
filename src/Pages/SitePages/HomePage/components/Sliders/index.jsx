@@ -78,7 +78,7 @@ function SampleNextArrow(props) {
             onClick={onClick}
         >
             <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M30 16.6667L53.3333 40L30 63.3333" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M30 16.6667L53.3333 40L30 63.3333" stroke="white" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
 
         </div>
@@ -93,7 +93,7 @@ function SamplePrevArrow(props) {
             onClick={onClick}
         >
             <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M50 63.3334L26.6667 40L50 16.6667" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M50 63.3334L26.6667 40L50 16.6667" stroke="white" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
         </div>
     );
