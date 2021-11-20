@@ -178,7 +178,7 @@ function Container() {
 
                 <div className="grid gap-2 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 mt-6">
                     <div className="w-full max-w-sm mx-auto rounded-lg overflow-hidden hover:cursor-pointer group">
-                        <div className="flex items-end justify-end h-[660px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(http://www.cookiesound.com/wp-content/uploads/2018/07/pulau-weh-iboih-aceh-sumatra-indonesia-featured-640x640.jpg)' }}>
+                        <div className="flex items-end justify-end h-[660px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(https://i.pinimg.com/564x/ca/f6/16/caf61638d8aabcb66805ab0a06b7e582.jpg' }}>
                             <div className="relative transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
                                 <div className="absolute top-5 right-5 fontTeko text-[20pt] bg-white text-gray-900 px-[30px] py-[4px] rounded-xl tracking-wide uppercase">
                                     Asia
@@ -191,10 +191,10 @@ function Container() {
                     </div>
 
                     <div className="w-full max-w-sm mx-auto rounded-lg overflow-hidden hover:cursor-pointer group">
-                        <div className="flex items-end justify-end h-[660px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(http://www.cookiesound.com/wp-content/uploads/2018/07/pulau-weh-iboih-aceh-sumatra-indonesia-featured-640x640.jpg)' }}>
+                        <div className="flex items-end justify-end h-[660px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(https://i.pinimg.com/750x/f9/aa/5a/f9aa5a451884dfc0ddefee5690e113d2.jpg)' }}>
                             <div className="relative transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
                                 <div className="absolute top-5 right-5 fontTeko text-[20pt] bg-white text-gray-900 px-[30px] py-[4px] rounded-xl tracking-wide uppercase">
-                                    Asia
+                                    Europe
                                 </div>
                                 <button className="hidden group-hover:block fontTeko text-[18pt] border-[3px] border-white hover:border-[#ca5c5c] px-[35px] py-[4px] rounded-full tracking-wide uppercase">
                                     Read Story
@@ -204,10 +204,10 @@ function Container() {
                     </div>
 
                     <div className="w-full max-w-sm mx-auto rounded-lg overflow-hidden hover:cursor-pointer group">
-                        <div className="flex items-end justify-end h-[660px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(http://www.cookiesound.com/wp-content/uploads/2018/07/pulau-weh-iboih-aceh-sumatra-indonesia-featured-640x640.jpg)' }}>
+                        <div className="flex items-end justify-end h-[660px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(https://i.pinimg.com/564x/15/e0/15/15e015d2aec7f5c12529a6256597446d.jpg)' }}>
                             <div className="relative transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
                                 <div className="absolute top-5 right-5 fontTeko text-[20pt] bg-white text-gray-900 px-[30px] py-[4px] rounded-xl tracking-wide uppercase">
-                                    Asia
+                                    America
                                 </div>
                                 <button className="hidden group-hover:block fontTeko text-[18pt] border-[3px] border-white hover:border-[#ca5c5c] px-[35px] py-[4px] rounded-full tracking-wide uppercase">
                                     Read Story
@@ -217,10 +217,10 @@ function Container() {
                     </div>
 
                     <div className="w-full max-w-sm mx-auto rounded-lg overflow-hidden hover:cursor-pointer group">
-                        <div className="flex items-end justify-end h-[660px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(http://www.cookiesound.com/wp-content/uploads/2018/07/pulau-weh-iboih-aceh-sumatra-indonesia-featured-640x640.jpg)' }}>
+                        <div className="flex items-end justify-end h-[660px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(https://i.pinimg.com/564x/77/25/11/77251128a745bd3e91439943a4014fea.jpg)' }}>
                             <div className="relative transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
                                 <div className="absolute top-5 right-5 fontTeko text-[20pt] bg-white text-gray-900 px-[30px] py-[4px] rounded-xl tracking-wide uppercase">
-                                    Asia
+                                    Oceania
                                 </div>
                                 <button className="hidden group-hover:block fontTeko text-[18pt] border-[3px] border-white hover:border-[#ca5c5c] px-[35px] py-[4px] rounded-full tracking-wide uppercase">
                                     Read Story
@@ -230,10 +230,10 @@ function Container() {
                     </div>
 
                     <div className="w-full max-w-sm mx-auto rounded-lg overflow-hidden hover:cursor-pointer group">
-                        <div className="flex items-end justify-end h-[660px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(http://www.cookiesound.com/wp-content/uploads/2018/07/pulau-weh-iboih-aceh-sumatra-indonesia-featured-640x640.jpg)' }}>
+                        <div className="flex items-end justify-end h-[660px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(https://i.pinimg.com/564x/9b/cc/10/9bcc10e5b667c4091b65cfeabef7401e.jpg)' }}>
                             <div className="relative transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
                                 <div className="absolute top-5 right-5 fontTeko text-[20pt] bg-white text-gray-900 px-[30px] py-[4px] rounded-xl tracking-wide uppercase">
-                                    Asia
+                                    Africa
                                 </div>
                                 <button className="hidden group-hover:block fontTeko text-[18pt] border-[3px] border-white hover:border-[#ca5c5c] px-[35px] py-[4px] rounded-full tracking-wide uppercase">
                                     Read Story
