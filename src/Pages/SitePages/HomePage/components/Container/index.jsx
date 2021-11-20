@@ -34,7 +34,7 @@ function Container() {
                 <div className="grid gap-1 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-6">
                     <Link to="postDetail">
                         <div className="w-full max-w-sm mx-auto rounded-sm overflow-hidden hover:cursor-pointer group">
-                            <div className="flex items-end justify-end h-[360px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(http://www.cookiesound.com/wp-content/uploads/2018/07/pulau-weh-iboih-aceh-sumatra-indonesia-featured-640x640.jpg)' }}>
+                            <div className="flex items-end justify-end h-[360px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(https://i.pinimg.com/564x/15/e0/15/15e015d2aec7f5c12529a6256597446d.jpg)' }}>
                                 <div className="transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
                                     <button className="hidden group-hover:block fontTeko text-[18pt] border-[3px] border-white hover:border-[#ca5c5c] px-[35px] py-[4px] rounded-full tracking-wide uppercase">
                                         Read Story
@@ -50,111 +50,131 @@ function Container() {
                         </div>
                     </Link>
 
-                    <div className="w-full max-w-sm mx-auto rounded-sm overflow-hidden hover:cursor-pointer group">
-                        <div className="flex items-end justify-end h-[360px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(http://www.cookiesound.com/wp-content/uploads/2018/07/pulau-weh-iboih-aceh-sumatra-indonesia-featured-640x640.jpg)' }}>
-                            <div className="transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
-                                <button className="hidden group-hover:block fontTeko text-[18pt] border-[3px] border-white hover:border-[#ca5c5c] px-[35px] py-[4px] rounded-full tracking-wide uppercase">
-                                    Read Story
-                                </button>
+                    <Link to="postDetail">
+                        <div className="w-full max-w-sm mx-auto rounded-sm overflow-hidden hover:cursor-pointer group">
+                            <div className="flex items-end justify-end h-[360px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(https://i.pinimg.com/564x/15/e0/15/15e015d2aec7f5c12529a6256597446d.jpg)' }}>
+                                <div className="transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
+                                    <button className="hidden group-hover:block fontTeko text-[18pt] border-[3px] border-white hover:border-[#ca5c5c] px-[35px] py-[4px] rounded-full tracking-wide uppercase">
+                                        Read Story
+                                    </button>
+                                </div>
+                            </div>
+                            <div className="px-[50px] py-[30px] group-hover:bg-gray-200 transition duration-300 ease-in-out">
+                                <p className="fontMohave text-[14pt] text-center text-gray-400 mb-[20px]">
+                                    Indonesia
+                                </p>
+                                <h1 className="fontTeko text-[25pt] text-center leading-none">A Beach Paradise In The North Of Sumatra: Pulau Weh.</h1>
                             </div>
                         </div>
-                        <div className="px-[50px] py-[30px] group-hover:bg-gray-200 transition duration-300 ease-in-out">
-                            <p className="fontMohave text-[14pt] text-center text-gray-400 mb-[20px]">
-                                Indonesia
-                            </p>
-                            <h1 className="fontTeko text-[25pt] text-center leading-none">A Beach Paradise In The North Of Sumatra: Pulau Weh.</h1>
-                        </div>
-                    </div>
-                    <div className="w-full max-w-sm mx-auto rounded-sm overflow-hidden hover:cursor-pointer group">
-                        <div className="flex items-end justify-end h-[360px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(http://www.cookiesound.com/wp-content/uploads/2018/07/pulau-weh-iboih-aceh-sumatra-indonesia-featured-640x640.jpg)' }}>
-                            <div className="transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
-                                <button className="hidden group-hover:block fontTeko text-[18pt] border-[3px] border-white hover:border-[#ca5c5c] px-[35px] py-[4px] rounded-full tracking-wide uppercase">
-                                    Read Story
-                                </button>
+                    </Link>
+
+                    <Link to="postDetail">
+                        <div className="w-full max-w-sm mx-auto rounded-sm overflow-hidden hover:cursor-pointer group">
+                            <div className="flex items-end justify-end h-[360px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(https://i.pinimg.com/564x/15/e0/15/15e015d2aec7f5c12529a6256597446d.jpg)' }}>
+                                <div className="transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
+                                    <button className="hidden group-hover:block fontTeko text-[18pt] border-[3px] border-white hover:border-[#ca5c5c] px-[35px] py-[4px] rounded-full tracking-wide uppercase">
+                                        Read Story
+                                    </button>
+                                </div>
+                            </div>
+                            <div className="px-[50px] py-[30px] group-hover:bg-gray-200 transition duration-300 ease-in-out">
+                                <p className="fontMohave text-[14pt] text-center text-gray-400 mb-[20px]">
+                                    Indonesia
+                                </p>
+                                <h1 className="fontTeko text-[25pt] text-center leading-none">A Beach Paradise In The North Of Sumatra: Pulau Weh.</h1>
                             </div>
                         </div>
-                        <div className="px-[50px] py-[30px] group-hover:bg-gray-200 transition duration-300 ease-in-out">
-                            <p className="fontMohave text-[14pt] text-center text-gray-400 mb-[20px]">
-                                Indonesia
-                            </p>
-                            <h1 className="fontTeko text-[25pt] text-center leading-none">A Beach Paradise In The North Of Sumatra: Pulau Weh.</h1>
-                        </div>
-                    </div>
-                    <div className="w-full max-w-sm mx-auto rounded-sm overflow-hidden hover:cursor-pointer group">
-                        <div className="flex items-end justify-end h-[360px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(http://www.cookiesound.com/wp-content/uploads/2018/07/pulau-weh-iboih-aceh-sumatra-indonesia-featured-640x640.jpg)' }}>
-                            <div className="transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
-                                <button className="hidden group-hover:block fontTeko text-[18pt] border-[3px] border-white hover:border-[#ca5c5c] px-[35px] py-[4px] rounded-full tracking-wide uppercase">
-                                    Read Story
-                                </button>
+                    </Link>
+
+                    <Link to="postDetail">
+                        <div className="w-full max-w-sm mx-auto rounded-sm overflow-hidden hover:cursor-pointer group">
+                            <div className="flex items-end justify-end h-[360px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(https://i.pinimg.com/564x/15/e0/15/15e015d2aec7f5c12529a6256597446d.jpg)' }}>
+                                <div className="transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
+                                    <button className="hidden group-hover:block fontTeko text-[18pt] border-[3px] border-white hover:border-[#ca5c5c] px-[35px] py-[4px] rounded-full tracking-wide uppercase">
+                                        Read Story
+                                    </button>
+                                </div>
+                            </div>
+                            <div className="px-[50px] py-[30px] group-hover:bg-gray-200 transition duration-300 ease-in-out">
+                                <p className="fontMohave text-[14pt] text-center text-gray-400 mb-[20px]">
+                                    Indonesia
+                                </p>
+                                <h1 className="fontTeko text-[25pt] text-center leading-none">A Beach Paradise In The North Of Sumatra: Pulau Weh.</h1>
                             </div>
                         </div>
-                        <div className="px-[50px] py-[30px] group-hover:bg-gray-200 transition duration-300 ease-in-out">
-                            <p className="fontMohave text-[14pt] text-center text-gray-400 mb-[20px]">
-                                Indonesia
-                            </p>
-                            <h1 className="fontTeko text-[25pt] text-center leading-none">A Beach Paradise In The North Of Sumatra: Pulau Weh.</h1>
-                        </div>
-                    </div>
-                    <div className="w-full max-w-sm mx-auto rounded-sm overflow-hidden hover:cursor-pointer group">
-                        <div className="flex items-end justify-end h-[360px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(http://www.cookiesound.com/wp-content/uploads/2018/07/pulau-weh-iboih-aceh-sumatra-indonesia-featured-640x640.jpg)' }}>
-                            <div className="transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
-                                <button className="hidden group-hover:block fontTeko text-[18pt] border-[3px] border-white hover:border-[#ca5c5c] px-[35px] py-[4px] rounded-full tracking-wide uppercase">
-                                    Read Story
-                                </button>
+                    </Link>
+
+                    <Link to="postDetail">
+                        <div className="w-full max-w-sm mx-auto rounded-sm overflow-hidden hover:cursor-pointer group">
+                            <div className="flex items-end justify-end h-[360px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(https://i.pinimg.com/564x/15/e0/15/15e015d2aec7f5c12529a6256597446d.jpg)' }}>
+                                <div className="transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
+                                    <button className="hidden group-hover:block fontTeko text-[18pt] border-[3px] border-white hover:border-[#ca5c5c] px-[35px] py-[4px] rounded-full tracking-wide uppercase">
+                                        Read Story
+                                    </button>
+                                </div>
+                            </div>
+                            <div className="px-[50px] py-[30px] group-hover:bg-gray-200 transition duration-300 ease-in-out">
+                                <p className="fontMohave text-[14pt] text-center text-gray-400 mb-[20px]">
+                                    Indonesia
+                                </p>
+                                <h1 className="fontTeko text-[25pt] text-center leading-none">A Beach Paradise In The North Of Sumatra: Pulau Weh.</h1>
                             </div>
                         </div>
-                        <div className="px-[50px] py-[30px] group-hover:bg-gray-200 transition duration-300 ease-in-out">
-                            <p className="fontMohave text-[14pt] text-center text-gray-400 mb-[20px]">
-                                Indonesia
-                            </p>
-                            <h1 className="fontTeko text-[25pt] text-center leading-none">A Beach Paradise In The North Of Sumatra: Pulau Weh.</h1>
-                        </div>
-                    </div>
-                    <div className="w-full max-w-sm mx-auto rounded-sm overflow-hidden hover:cursor-pointer group">
-                        <div className="flex items-end justify-end h-[360px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(http://www.cookiesound.com/wp-content/uploads/2018/07/pulau-weh-iboih-aceh-sumatra-indonesia-featured-640x640.jpg)' }}>
-                            <div className="transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
-                                <button className="hidden group-hover:block fontTeko text-[18pt] border-[3px] border-white hover:border-[#ca5c5c] px-[35px] py-[4px] rounded-full tracking-wide uppercase">
-                                    Read Story
-                                </button>
+                    </Link>
+
+                    <Link to="postDetail">
+                        <div className="w-full max-w-sm mx-auto rounded-sm overflow-hidden hover:cursor-pointer group">
+                            <div className="flex items-end justify-end h-[360px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(https://i.pinimg.com/564x/15/e0/15/15e015d2aec7f5c12529a6256597446d.jpg)' }}>
+                                <div className="transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
+                                    <button className="hidden group-hover:block fontTeko text-[18pt] border-[3px] border-white hover:border-[#ca5c5c] px-[35px] py-[4px] rounded-full tracking-wide uppercase">
+                                        Read Story
+                                    </button>
+                                </div>
+                            </div>
+                            <div className="px-[50px] py-[30px] group-hover:bg-gray-200 transition duration-300 ease-in-out">
+                                <p className="fontMohave text-[14pt] text-center text-gray-400 mb-[20px]">
+                                    Indonesia
+                                </p>
+                                <h1 className="fontTeko text-[25pt] text-center leading-none">A Beach Paradise In The North Of Sumatra: Pulau Weh.</h1>
                             </div>
                         </div>
-                        <div className="px-[50px] py-[30px] group-hover:bg-gray-200 transition duration-300 ease-in-out">
-                            <p className="fontMohave text-[14pt] text-center text-gray-400 mb-[20px]">
-                                Indonesia
-                            </p>
-                            <h1 className="fontTeko text-[25pt] text-center leading-none">A Beach Paradise In The North Of Sumatra: Pulau Weh.</h1>
-                        </div>
-                    </div>
-                    <div className="w-full max-w-sm mx-auto rounded-sm overflow-hidden hover:cursor-pointer group">
-                        <div className="flex items-end justify-end h-[360px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(http://www.cookiesound.com/wp-content/uploads/2018/07/pulau-weh-iboih-aceh-sumatra-indonesia-featured-640x640.jpg)' }}>
-                            <div className="transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
-                                <button className="hidden group-hover:block fontTeko text-[18pt] border-[3px] border-white hover:border-[#ca5c5c] px-[35px] py-[4px] rounded-full tracking-wide uppercase">
-                                    Read Story
-                                </button>
+                    </Link>
+
+                    <Link to="postDetail">
+                        <div className="w-full max-w-sm mx-auto rounded-sm overflow-hidden hover:cursor-pointer group">
+                            <div className="flex items-end justify-end h-[360px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(https://i.pinimg.com/564x/15/e0/15/15e015d2aec7f5c12529a6256597446d.jpg)' }}>
+                                <div className="transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
+                                    <button className="hidden group-hover:block fontTeko text-[18pt] border-[3px] border-white hover:border-[#ca5c5c] px-[35px] py-[4px] rounded-full tracking-wide uppercase">
+                                        Read Story
+                                    </button>
+                                </div>
+                            </div>
+                            <div className="px-[50px] py-[30px] group-hover:bg-gray-200 transition duration-300 ease-in-out">
+                                <p className="fontMohave text-[14pt] text-center text-gray-400 mb-[20px]">
+                                    Indonesia
+                                </p>
+                                <h1 className="fontTeko text-[25pt] text-center leading-none">A Beach Paradise In The North Of Sumatra: Pulau Weh.</h1>
                             </div>
                         </div>
-                        <div className="px-[50px] py-[30px] group-hover:bg-gray-200 transition duration-300 ease-in-out">
-                            <p className="fontMohave text-[14pt] text-center text-gray-400 mb-[20px]">
-                                Indonesia
-                            </p>
-                            <h1 className="fontTeko text-[25pt] text-center leading-none">A Beach Paradise In The North Of Sumatra: Pulau Weh.</h1>
-                        </div>
-                    </div>
-                    <div className="w-full max-w-sm mx-auto rounded-sm overflow-hidden hover:cursor-pointer group">
-                        <div className="flex items-end justify-end h-[360px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(http://www.cookiesound.com/wp-content/uploads/2018/07/pulau-weh-iboih-aceh-sumatra-indonesia-featured-640x640.jpg)' }}>
-                            <div className="transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
-                                <button className="hidden group-hover:block fontTeko text-[18pt] border-[3px] border-white hover:border-[#ca5c5c] px-[35px] py-[4px] rounded-full tracking-wide uppercase">
-                                    Read Story
-                                </button>
+                    </Link>
+
+                    <Link to="postDetail">
+                        <div className="w-full max-w-sm mx-auto rounded-sm overflow-hidden hover:cursor-pointer group">
+                            <div className="flex items-end justify-end h-[360px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(https://i.pinimg.com/564x/15/e0/15/15e015d2aec7f5c12529a6256597446d.jpg)' }}>
+                                <div className="transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
+                                    <button className="hidden group-hover:block fontTeko text-[18pt] border-[3px] border-white hover:border-[#ca5c5c] px-[35px] py-[4px] rounded-full tracking-wide uppercase">
+                                        Read Story
+                                    </button>
+                                </div>
+                            </div>
+                            <div className="px-[50px] py-[30px] group-hover:bg-gray-200 transition duration-300 ease-in-out">
+                                <p className="fontMohave text-[14pt] text-center text-gray-400 mb-[20px]">
+                                    Indonesia
+                                </p>
+                                <h1 className="fontTeko text-[25pt] text-center leading-none">A Beach Paradise In The North Of Sumatra: Pulau Weh.</h1>
                             </div>
                         </div>
-                        <div className="px-[50px] py-[30px] group-hover:bg-gray-200 transition duration-300 ease-in-out">
-                            <p className="fontMohave text-[14pt] text-center text-gray-400 mb-[20px]">
-                                Indonesia
-                            </p>
-                            <h1 className="fontTeko text-[25pt] text-center leading-none">A Beach Paradise In The North Of Sumatra: Pulau Weh.</h1>
-                        </div>
-                    </div>
+                    </Link>
                 </div>
 
                 <div className="mx-auto flex flex-col items-center mt-[60px]">
