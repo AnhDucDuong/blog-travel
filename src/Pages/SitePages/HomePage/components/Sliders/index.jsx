@@ -23,7 +23,7 @@ function Sliders() {
 
             <Slider {...settings}>
                 <div className="relative">
-                    <img className="h-screen w-full" src="https://www.cookiesound.com/wp-content/uploads/2016/01/leh-palace-ladakh-kashmir-india-featured.jpg" alt="" />
+                    <img className="h-screen w-full" src="https://i.pinimg.com/originals/0c/c6/d8/0cc6d8df2ac1991b1b8f63c8bc44e5f1.jpg" alt="" />
                     <div className="absolute top-[200px] left-[50%] transform translate-x-[-50%] z-[50] flex flex-col items-center text-white">
                         <h1 className="fontTeko text-[70pt] text-center w-[920px] leading-none">Welcome To Little Tibet, Welcome To Ladakh, Welcome To Leh.</h1>
                         <p className="fontMohave italic text-[15pt] my-[40px]">New Zealand, Oceania</p>
@@ -34,7 +34,7 @@ function Sliders() {
                 </div>
 
                 <div className="relative">
-                    <img className="h-screen w-full" src="https://www.cookiesound.com/wp-content/uploads/2012/06/vienna-state-opera-at-night-traffic-austria-1.jpg" alt="" />
+                    <img className="h-screen w-full" src="https://wallpaperaccess.com/full/1369012.jpg" alt="" />
                     <div className="absolute top-[200px] left-[50%] transform translate-x-[-50%] z-[50] flex flex-col items-center text-white">
                         <h1 className="fontTeko text-[70pt] text-center w-[920px] leading-none">Welcome To Little Tibet, Welcome To Ladakh, Welcome To Leh.</h1>
                         <p className="fontMohave italic text-[15pt] my-[40px]">New Zealand, Oceania</p>
@@ -45,7 +45,7 @@ function Sliders() {
                 </div>
 
                 <div className="relative">
-                    <img className="h-screen w-full" src="https://www.cookiesound.com/wp-content/uploads/2018/01/iron-ore-train-mauritania-africa-5-featured.jpg" alt="" />
+                    <img className="h-screen w-full" src="https://i.pinimg.com/originals/0d/2e/69/0d2e69ab0573df6c841cf641452197b2.jpg" alt="" />
                     <div className="absolute top-[200px] left-[50%] transform translate-x-[-50%] z-[50] flex flex-col items-center text-white">
                         <h1 className="fontTeko text-[70pt] text-center w-[920px] leading-none">Welcome To Little Tibet, Welcome To Ladakh, Welcome To Leh.</h1>
                         <p className="fontMohave italic text-[15pt] my-[40px]">New Zealand, Oceania</p>
@@ -56,7 +56,7 @@ function Sliders() {
                 </div>
 
                 <div className="relative">
-                    <img className="h-screen w-full" src="https://www.cookiesound.com/wp-content/uploads/2014/03/tongariro-alpine-crossing-emeral-lakes-new-zealand.jpg" alt="" />
+                    <img className="h-screen w-full" src="https://wallpapercave.com/wp/wp1857988.jpg" alt="" />
                     <div className="absolute top-[200px] left-[50%] transform translate-x-[-50%] z-[50] flex flex-col items-center text-white">
                         <h1 className="fontTeko text-[70pt] text-center w-[920px] leading-none">Welcome To Little Tibet, Welcome To Ladakh, Welcome To Leh.</h1>
                         <p className="fontMohave italic text-[15pt] my-[40px]">New Zealand, Oceania</p>

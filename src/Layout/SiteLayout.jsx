@@ -1,6 +1,5 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import FooterSite from "../Components/FooterSite";
-import HomePage from "../Pages/SitePages/HomePage";
 
 function SiteLayout() {
     return (

@@ -1,5 +1,6 @@
-import FooterSite from "../../../Components/FooterSite";
+import { Link } from "react-router-dom";
 import HeaderSite from "../../../Components/HeaderSite";
+import AreaComponent from "../HomePage/components/Container/AreaComponent";
 
 function PostDetail() {
     return (
@@ -59,66 +60,82 @@ function PostDetail() {
                 </div>
             </div>
 
-            <div className="bg-gray-200">
-                <div className="container w-full max-w-6xl mx-auto px-2 py-8">
-                    <div className="flex flex-wrap -mx-2">
-                        <div className="w-full md:w-1/3 px-2 pb-12">
-                            <div className="h-full bg-white rounded overflow-hidden shadow-md hover:shadow-lg relative smooth">
-                                <a href="#" className="no-underline hover:no-underline">
-                                    <img src="https://source.unsplash.com/_AjqGGafofE/400x200" className="h-48 w-full rounded-t shadow-lg" />
-                                    <div className="p-6 h-auto md:h-48">
-                                        <p className="text-gray-600 text-xs md:text-sm">GETTING STARTED</p>
-                                        <div className="font-bold text-xl text-gray-900">Lorem ipsum dolor sit amet.</div>
-                                        <p className="text-gray-800 font-serif text-base mb-5">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-                                        </p>
-                                    </div>
-                                    <div className="flex items-center justify-between inset-x-0 bottom-0 p-6">
-                                        <img className="w-8 h-8 rounded-full mr-4" src="http://i.pravatar.cc/300" alt="Avatar of Author" />
-                                        <p className="text-gray-600 text-xs md:text-sm">2 MIN READ</p>
-                                    </div>
-                                </a>
+            <div className="grid gap-1 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 py-10 px-4">
+                <Link to="">
+                    <div className="w-full max-w-sm mx-auto rounded-sm overflow-hidden hover:cursor-pointer group">
+                        <div className="flex items-end justify-end h-[360px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(https://i.pinimg.com/564x/15/e0/15/15e015d2aec7f5c12529a6256597446d.jpg)' }}>
+                            <div className="transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
+                                <button className="hidden group-hover:block fontTeko text-[18pt] border-[3px] border-white hover:border-[#ca5c5c] px-[35px] py-[4px] rounded-full tracking-wide uppercase">
+                                    Read Story
+                                </button>
                             </div>
                         </div>
-                        <div className="w-full md:w-1/3 px-2 pb-12">
-                            <div className="h-full bg-white rounded overflow-hidden shadow-md hover:shadow-lg relative smooth">
-                                <a href="#" className="no-underline hover:no-underline">
-                                    <img src="https://source.unsplash.com/_AjqGGafofE/400x200" className="h-48 w-full rounded-t shadow" />
-                                    <div className="p-6 h-auto md:h-48">
-                                        <p className="text-gray-600 text-xs md:text-sm">UNDERWATER</p>
-                                        <div className="font-bold text-xl text-gray-900">Biolumini algae diatomeae ecology.</div>
-                                        <p className="text-gray-800 font-serif text-base mb-5">
-                                            Lorem ipsum dolor sit.Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-                                        </p>
-                                    </div>
-                                    <div className="flex items-center justify-between inset-x-0 bottom-0 p-6">
-                                        <img className="w-8 h-8 rounded-full mr-4" src="http://i.pravatar.cc/300" alt="Avatar of Author" />
-                                        <p className="text-gray-600 text-xs md:text-sm">4 MIN READ</p>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div className="w-full md:w-1/3 px-2 pb-12">
-                            <div className="h-full bg-white rounded overflow-hidden shadow-md hover:shadow-lg relative smooth">
-                                <a href="#" className="no-underline hover:no-underline">
-                                    <img src="https://source.unsplash.com/DEa8_vxKlEo/400x200" className="h-48 w-full rounded-t shadow" />
-                                    <div className="p-6 h-auto md:h-48">
-                                        <p className="text-gray-600 text-xs md:text-sm">FOREST</p>
-                                        <div className="font-bold text-xl text-gray-900">What is life but a teardrop in the eye of infinity?</div>
-                                        <p className="text-gray-800 font-serif text-base mb-5">
-                                            Mollis pretium integer eros et dui orci, lectus nec elit sagittis neque.Dignissim ac nullam semper aliquet volutpat, ut scelerisque.
-                                        </p>
-                                    </div>
-                                    <div className="flex items-center justify-between inset-x-0 bottom-0 p-6">
-                                        <img className="w-8 h-8 rounded-full mr-4" src="http://i.pravatar.cc/300" alt="Avatar of Author" />
-                                        <p className="text-gray-600 text-xs md:text-sm">7 MIN READ</p>
-                                    </div>
-                                </a>
-                            </div>
+                        <div className="px-[50px] py-[30px] group-hover:bg-gray-200 transition duration-300 ease-in-out">
+                            <p className="fontMohave text-[14pt] text-center text-gray-400 mb-[20px]">
+                                Indonesia
+                            </p>
+                            <h1 className="fontTeko text-[25pt] text-center leading-none">A Beach Paradise In The North Of Sumatra: Pulau Weh.</h1>
                         </div>
                     </div>
-                </div>
+                </Link>
+
+                <Link to="">
+                    <div className="w-full max-w-sm mx-auto rounded-sm overflow-hidden hover:cursor-pointer group">
+                        <div className="flex items-end justify-end h-[360px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(https://i.pinimg.com/564x/15/e0/15/15e015d2aec7f5c12529a6256597446d.jpg)' }}>
+                            <div className="transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
+                                <button className="hidden group-hover:block fontTeko text-[18pt] border-[3px] border-white hover:border-[#ca5c5c] px-[35px] py-[4px] rounded-full tracking-wide uppercase">
+                                    Read Story
+                                </button>
+                            </div>
+                        </div>
+                        <div className="px-[50px] py-[30px] group-hover:bg-gray-200 transition duration-300 ease-in-out">
+                            <p className="fontMohave text-[14pt] text-center text-gray-400 mb-[20px]">
+                                Indonesia
+                            </p>
+                            <h1 className="fontTeko text-[25pt] text-center leading-none">A Beach Paradise In The North Of Sumatra: Pulau Weh.</h1>
+                        </div>
+                    </div>
+                </Link>
+
+                <Link to="">
+                    <div className="w-full max-w-sm mx-auto rounded-sm overflow-hidden hover:cursor-pointer group">
+                        <div className="flex items-end justify-end h-[360px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(https://i.pinimg.com/564x/15/e0/15/15e015d2aec7f5c12529a6256597446d.jpg)' }}>
+                            <div className="transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
+                                <button className="hidden group-hover:block fontTeko text-[18pt] border-[3px] border-white hover:border-[#ca5c5c] px-[35px] py-[4px] rounded-full tracking-wide uppercase">
+                                    Read Story
+                                </button>
+                            </div>
+                        </div>
+                        <div className="px-[50px] py-[30px] group-hover:bg-gray-200 transition duration-300 ease-in-out">
+                            <p className="fontMohave text-[14pt] text-center text-gray-400 mb-[20px]">
+                                Indonesia
+                            </p>
+                            <h1 className="fontTeko text-[25pt] text-center leading-none">A Beach Paradise In The North Of Sumatra: Pulau Weh.</h1>
+                        </div>
+                    </div>
+                </Link>
+
+                <Link to="">
+                    <div className="w-full max-w-sm mx-auto rounded-sm overflow-hidden hover:cursor-pointer group">
+                        <div className="flex items-end justify-end h-[360px] w-full bg-cover bg-center" style={{ backgroundImage: 'url(https://i.pinimg.com/564x/15/e0/15/15e015d2aec7f5c12529a6256597446d.jpg)' }}>
+                            <div className="transition duration-500 ease-in-out group-hover:bg-gray-900 group-hover:bg-opacity-50 text-white w-full h-full group-hover:flex group-hover:items-center group-hover:justify-center">
+                                <button className="hidden group-hover:block fontTeko text-[18pt] border-[3px] border-white hover:border-[#ca5c5c] px-[35px] py-[4px] rounded-full tracking-wide uppercase">
+                                    Read Story
+                                </button>
+                            </div>
+                        </div>
+                        <div className="px-[50px] py-[30px] group-hover:bg-gray-200 transition duration-300 ease-in-out">
+                            <p className="fontMohave text-[14pt] text-center text-gray-400 mb-[20px]">
+                                Indonesia
+                            </p>
+                            <h1 className="fontTeko text-[25pt] text-center leading-none">A Beach Paradise In The North Of Sumatra: Pulau Weh.</h1>
+                        </div>
+                    </div>
+                </Link>
             </div>
+
+            {/*Area Component*/}
+            <AreaComponent />
         </div>
     );
 }
