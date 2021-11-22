@@ -17,6 +17,7 @@ import MediaPage from "./Pages/SitePages/MediaPage";
 import Dashboard from "./Pages/AdminPages/Dashboard";
 import Posts from "./Pages/AdminPages/Posts";
 import Countries from "./Pages/AdminPages/Countries";
+import AddPost from "./Pages/AdminPages/Posts/AddPost";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
             <Route index element={<Navigate to="dashboard" />} />
             <Route path="dashboard" element={<Dashboard />} />
             <Route path="posts" element={<Posts />} />
+            <Route path="posts/add-post" element={<AddPost />} />
             <Route path="countries" element={<Countries />} />
           </Route>
         </Routes>

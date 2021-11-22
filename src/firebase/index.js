@@ -1,5 +1,4 @@
-import firebase from "firebase/app";
-import "firebase/storage";
+import firebase from 'firebase';
 
 const firebaseConfig = {
     // Đoạn này copy trên firebase của từng người
@@ -14,6 +13,6 @@ const firebaseConfig = {
 
 };
 
-// Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-export default firebase;
+var storage = firebase.storage();
+export default storage;

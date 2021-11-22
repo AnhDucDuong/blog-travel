@@ -23,9 +23,9 @@ const PostsAPI = {
         return axiosClient.get(url)
     },
 
-    create(postsId) {
+    create(posts) {
         const url = `/posts`;
-        return axiosClient.post(url, postsId)
+        return axiosClient.post(url, posts)
     },
 
     remove(postsId) {

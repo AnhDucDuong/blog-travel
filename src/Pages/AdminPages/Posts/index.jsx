@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import CountryAPI from "../../../Api/countriesAPI";
 import PostsAPI from "../../../Api/postsAPI"
 
 function Posts() {
     const [posts, setPosts] = useState(null);
+    const [countries, setCountries] = useState(null);
+
     useEffect(() => {
         // khai báo hàm getPosts
         const getPosts = async () => {
@@ -16,6 +19,17 @@ function Posts() {
             }
         };
         getPosts();
+
+        const getCountries = async () => {
+            try {
+                // call API lấy thông tin
+                const { data } = await CountryAPI.list();
+                await setCountries(data)
+            } catch (error) {
+                console.log(error)
+            }
+        };
+        getCountries();
     }, []);
 
     if (!posts || posts?.length === 0) return <p className="text-[15px]">Không có dữ liệu...</p>
@@ -38,7 +52,7 @@ function Posts() {
             <h3 className="text-gray-700 text-3xl font-medium">List Posts</h3>
 
             <div className="mt-8">
-                <a href="" className="bg-indigo-600 px-4 py-2 text-white rounded-md">Add New</a>
+                <Link to="add-post" className="bg-indigo-600 px-4 py-2 text-white rounded-md">Add New</Link>
             </div>
 
             <div className="flex flex-col mt-6">
@@ -98,7 +112,12 @@ function Posts() {
                                         <td className="px-6 py-4 whitespace-no-wrap border-b border-gray-200">
                                             <div className="flex items-center">
                                                 <div className="">
-                                                    <div className="text-sm leading-5 text-gray-500">{value.country_id}</div>
+                                                    {countries?.map((country, index) => {
+                                                        if (country._id == value.country_id) {
+                                                            return <div key={index} className="text-sm leading-5 text-gray-500">{country.name}</div>
+                                                        }
+                                                    })}
+
                                                 </div>
                                             </div>
                                         </td>
