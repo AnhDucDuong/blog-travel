@@ -47,7 +47,7 @@ function Posts() {
     };
     //console.log("posts: ", posts)
 
-    return posts && (
+    return (
         <div className="container mx-auto px-6 py-8">
             <h3 className="text-gray-700 text-3xl font-medium">List Posts</h3>
 
