@@ -32,7 +32,7 @@ function Posts() {
         getCountries();
     }, []);
 
-    if (!posts || posts?.length === 0) return <p className="text-[15px]">Không có dữ liệu...</p>
+    //if (!posts || posts?.length === 0) return <p className="text-[15px]">Không có dữ liệu...</p>
 
     const onHandleRemove = async (id) => {
         try {
