@@ -13,9 +13,6 @@ function MenuSite() {
                 <NavLink className="inline-block py-2 px-4 text-white no-underline" to="/about">About Us</NavLink>
             </li>
             <li>
-                <NavLink className="inline-block py-2 px-4 text-white no-underline" to="/contact">Contact</NavLink>
-            </li>
-            <li>
                 <NavLink className="inline-block py-2 px-4 text-white no-underline" to="/media">Media</NavLink>
             </li>
             <li>

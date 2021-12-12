@@ -12,12 +12,15 @@ import HomePage from "./Pages/SitePages/HomePage";
 import PostDetail from "./Pages/SitePages/PostDetail";
 import ArticlePage from "./Pages/SitePages/ArticlePage";
 import AboutUsPage from "./Pages/SitePages/AboutUsPage";
-import ContactPage from "./Pages/SitePages/ContactPage";
 import MediaPage from "./Pages/SitePages/MediaPage";
 import Dashboard from "./Pages/AdminPages/Dashboard";
 import Posts from "./Pages/AdminPages/Posts";
 import Countries from "./Pages/AdminPages/Countries";
 import AddPost from "./Pages/AdminPages/Posts/AddPost";
+import AddCountry from "./Pages/AdminPages/Countries/AddCountry";
+import Signin from "./Components/Signin";
+import CountryDetail from "./Pages/SitePages/CountryDetail";
+import EditCountry from "./Pages/AdminPages/Countries/EditCountry";
 
 function App() {
   return (
@@ -27,10 +30,10 @@ function App() {
           {/* Layout Website */}
           <Route path="/" element={<SiteLayout />}>
             <Route index element={<HomePage />} />
-            <Route path="postDetail" element={<PostDetail />} />
+            <Route path="postDetail/:id" element={<PostDetail />} />
+            <Route path="countryDetail/:id" element={<CountryDetail />} />
             <Route path="articles" element={<ArticlePage />} />
             <Route path="about" element={<AboutUsPage />} />
-            <Route path="contact" element={<ContactPage />} />
             <Route path="media" element={<MediaPage />} />
           </Route>
 
@@ -41,6 +44,8 @@ function App() {
             <Route path="posts" element={<Posts />} />
             <Route path="posts/add-post" element={<AddPost />} />
             <Route path="countries" element={<Countries />} />
+            <Route path="countries/add-country" element={<AddCountry />} />
+            <Route path="countries/edit-country/:id" element={<EditCountry />} />
           </Route>
         </Routes>
       </BrowserRouter>

@@ -132,7 +132,7 @@ function Posts() {
 
                                         <td
                                             className="px-6 py-4 whitespace-no-wrap text-right border-b border-gray-200 text-sm leading-5 font-medium">
-                                            <Link to="/postDetail" target="_blank" className="text-[#0E9F6E] hover:text-[#00714b]">Detail</Link>
+                                            <Link to={'/postDetail/' + value._id} target="_blank" className="text-[#0E9F6E] hover:text-[#00714b]">Detail</Link>
                                             <a href="" className="ml-6 text-indigo-600 hover:text-indigo-900">Edit</a>
                                             <button onClick={() => onHandleRemove(value._id)} className="btn ml-6 text-red-600 hover:text-red-700 font-semibold focus:outline-none">Remove</button>
                                         </td>

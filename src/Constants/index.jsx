@@ -4,3 +4,7 @@ import Logo from '../Assets/image/traveLove_logo_slide.png'
 export const Images = {
     Logo
 };
+
+export const Icons = {
+
+}

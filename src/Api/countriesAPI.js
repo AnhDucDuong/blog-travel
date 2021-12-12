@@ -9,27 +9,27 @@ const CountryAPI = {
     },
 
     create(country) {
-        const url = `/country`;
+        const url = `/countries`;
         return axiosClient.post(url, country)
     },
 
     list() {
-        const url = `/country`;
+        const url = `/countries`;
         return axiosClient.get(url)
     },
 
     read(countryId) {
-        const url = `/country/${countryId}`;
+        const url = `/countries/${countryId}`;
         return axiosClient.get(url)
     },
 
     remove(countryId) {
-        const url = `/country/${countryId}`;
+        const url = `/countries/${countryId}`;
         return axiosClient.delete(url)
     },
 
     update(countryId, data) {
-        const url = `/country/${countryId}`;
+        const url = `/countries/${countryId}`;
         return axiosClient.put(url, data)
     }
 }
